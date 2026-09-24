@@ -1,8 +1,10 @@
-# Learning material: only each week's LAB folder is uploaded
-Week */*
-!Week */LAB/
+# Ignore everything inside Week folders
+Week*/*
  
-# Files that should never b* uploaded
+# But keep LAB folders and their contents
+!Week*/LAB/
+!Week*/LAB/**
+# Files that should never be uploaded
 .venv/
 __pycache__/
 .ipy*b_checkpoints/
