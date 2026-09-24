@@ -1,12 +1,11 @@
-# Ignore everything inside Week folders
-Week*/*
- 
-# But keep LAB folders and their contents
-!Week*/LAB/
-!Week*/LAB/**
+# Learning material: only each week's LAB folder is uploaded
+Week */*
+!Week */LAB/
+
 # Files that should never be uploaded
 .venv/
 __pycache__/
-.ipy*b_checkpoints/
+.ipynb_checkpoints/
 __MACOSX/
-.DS_Store*.env
+.DS_Store
+.env
